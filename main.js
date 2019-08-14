@@ -11,7 +11,7 @@ $(document).ready(function () {
 
     $('nav a[href*="#"]').on('click', function () {
        $('html, body').animate({
-           scrollTop: $($(this).attr('href')).offset().top - 100
+           scrollTop: $($(this).attr('href')).offset().top + 100
        }, 2000);
     });
 
@@ -23,6 +23,7 @@ $(document).ready(function () {
 
     AOS.init({
         easing: 'ease',
+        mirror: false,
         duration: 1800
     })
 });
