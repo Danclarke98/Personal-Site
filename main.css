@@ -368,6 +368,7 @@ li{
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 10rem;
     text-align: center;
+    padding: 1rem;
 
 }
 
