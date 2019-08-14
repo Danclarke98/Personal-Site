@@ -306,17 +306,16 @@ li{
 .my-skills{
     margin-top: 10rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-gap: 2.5rem;
     text-align: center;
-    justify-content: center;
 
 }
 
 .skill{
     display: flex;
     flex-direction: column;
-    
+    /*justify-content: center; */
     align-items: center;
     padding: 4rem;
 }
@@ -325,6 +324,7 @@ li{
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
+    
 }
 
 .skill ul{
@@ -334,7 +334,6 @@ li{
 
 .icon-container{
     width: 10rem;
-
     height: 10rem;
     border: 3px solid #03DAC6;
     background-color: #018768;
