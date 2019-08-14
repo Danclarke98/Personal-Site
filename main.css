@@ -317,13 +317,13 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
+    padding: 0rem;
 }
 
 .skill h1{
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 2rem -1px 1rem 0;
+    margin: 2rem -2px 2rem 0;
 }
 
 .skill ul{
@@ -348,6 +348,14 @@ li{
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
+}
+
+.fa-github:hover{
+    color: #ffe838
+}
+
+.fa-desktop:hover{
+    color: #ffe838
 }
 
 /* End Skills */
